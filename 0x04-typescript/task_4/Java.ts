@@ -1,5 +1,4 @@
-import { Subject } from "./task_4";
-
+import { Subject } from "./Subject";
 namespace Subjects {
     interface Teacher {
         experienceTeachingJava?: number;
