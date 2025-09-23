@@ -1,17 +1,11 @@
-/// <reference path="./Subject.ts" />
-/// <reference path="./Cpp.ts" />
-/// <reference path="./Java.ts" />
-/// <reference path="./React.ts" />
-
-// Create instances from the global Subjects namespace
 const cpp = new Subjects.Cpp();
 const java = new Subjects.Java();
 const react = new Subjects.React();
 
 const cTeacher: Subjects.Teacher = {
-    firstName: 'Teacher',
-    lastName: 'Last',
-    experienceTeachingC: 10
+  firstName: 'John',
+  lastName: 'Doe',
+  experienceTeachingC: 10,
 };
 
 // Cpp
